@@ -18,6 +18,8 @@ h3{
     color: black;
 }
 
+
+/*Header*/
 header{
     background-color: #111;
     padding: 10px 20px;
@@ -36,6 +38,31 @@ header{
     width: 100px;
     height: auto;
     margin-right: auto;
+}
+
+/*Navegador*/
+
+nav{
+    flex-grow: 1;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 /*About*/
