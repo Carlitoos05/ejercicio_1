@@ -1,0 +1,53 @@
+body{
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+    background: beige;
+    color: #333;
+}
+
+header{
+    background-color: #111;
+    padding: 10px 20px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+    margin-right: auto;
+}
+
+/*About*/
+
+.about  {
+    display: flex;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px black;
+    margin: 20px;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+
+.fundador{
+    width: 200px;
+    height: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
