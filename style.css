@@ -114,39 +114,7 @@ nav ul li a{
     border-radius: 30px;
 }
 
-
-/*Contact*/
-.contact{
-    background-color: #fff;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px black;
-    margin: 20px;
-    padding: 20px;
-    text-align: center;
-
-}
-
-.contact label{
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-}
-
-.contact input{
-    padding: 10px;
-    margin: 10px black;
-    border-radius: 10px;
-    width: 800px;
-
-}
-
-.contact textarea{
-    padding: 10px;
-    margin: 10px black;
-    border-radius: 10px;
-    width: 800px;
-}
-
+/*Footer*/
 footer{
     background-color: black;
     color: #fff;
